@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@300;700&display=swap");
+#titlesh1h2, h1, h2 {
+  font-weight: 500;
+  color: #7038d7; }
+
+body {
+  overflow-x: hidden;
+  background-color: #f3f3f6; }
+
+h1 {
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2.5em; }
+
+h2 {
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2em; }
+
+#cardTitle {
+  padding: 0 0 1rem 0;
+  margin: 0; }
+
+.cardText {
+  font-size: 1.2rem; }
+
+#navStyle {
+  background-color: #000000;
+  font-size: 1em;
+  font-weight: 450px; }
+
+.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.btForm {
+  border: solid 1px;
+  border-color: #7947d4;
+  background-color: #7947d4;
+  color: white; }
+  .btForm:hover {
+    background-color: #7038d7;
+    transform: translateY(-0.2em);
+    transition: transform 0.2s;
+    color: white;
+    cursor: pointer; }
+
+.nosotras {
+  margin: 5rem 1rem 1rem 1rem;
+  font-size: 1.3rem; }
+  .nosotras p {
+    padding: 1rem;
+    padding-left: 1rem;
+    margin-left: 1rem; }
+
+#greyHover img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 0.6s; }
+  #greyHover img:hover {
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.03); }
+
+.servicios h3 {
+  color: #7038d7; }
+
+.form-control {
+  width: 18rem; }
+
+footer {
+  background-color: #e0e0e0; }

@@ -1,0 +1,98 @@
+#titlesh1h2 {
+    font-weight: $titleHeavy;
+    color: $secondaryColor;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $bgColor;
+}
+
+h1 {
+    @extend #titlesh1h2;
+    padding: 2rem;
+    margin: 2rem;
+    font-size: $textLg;
+}
+
+h2 {
+    @extend #titlesh1h2;
+    padding: 2rem;
+    margin: 2rem;
+    font-size: $textMd;
+}
+
+#cardTitle {
+    padding: 0 0 1rem 0;
+    margin: 0;
+}
+
+.cardText {
+    font-size: 1.2rem;
+}
+
+#navStyle {
+    background-color: $mainColor;
+    font-size: $textSm;
+    font-weight: $w-45;
+}
+
+.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.btForm {
+    border: solid 1px;
+    border-color: $btnborderColor;
+    background-color: $btncolor;
+    color: $thirdColor;
+
+    &:hover {
+        background-color: $secondaryColor;
+        transform: translateY(-0.20em);
+        transition: transform 0.2s;
+        color: $thirdColor;
+        cursor: pointer;
+    }
+}
+
+.nosotras {
+    margin: 5rem 1rem 1rem 1rem;
+    font-size: 1.3rem;
+
+    & p {
+        padding: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+
+#greyHover img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 0.6s;
+
+    &:hover {
+        filter: none;
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+}
+
+.servicios h3 {
+    color: $secondaryColor;
+}
+
+.form-control {
+    width: 18rem;
+}
+
+footer {
+    background-color: $bgFooter;
+}
